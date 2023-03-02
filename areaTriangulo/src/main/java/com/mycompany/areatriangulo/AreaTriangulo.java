@@ -16,7 +16,7 @@ public class AreaTriangulo {
         
          Scanner ler = new Scanner(System.in);
         
-        int altura, base, area;
+        int altura, base, area, areaMetros;
         
         System.out.print("Informe a altura do triângulo em cm: ");
         altura = ler.nextInt();
@@ -26,7 +26,13 @@ public class AreaTriangulo {
         
         area = base * altura / 2;
         
+        areaMetros = area/100;
+        
         System.out.println("A área do triângulo é " + area + " centímetros");
+        System.out.println("A área em metros do triângulo é " + areaMetros + " metros");
+      
+        
+       
     }
 }
 
