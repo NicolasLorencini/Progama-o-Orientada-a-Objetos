@@ -18,10 +18,13 @@ public class Areacirculo {
         System.out.print("Informe o raio do circúlo: ");
         Double raio = ler.nextDouble();
         
-        int pi = (22/7);
+        //int pi = (22/7);
         
-        Double area = (raio * raio *pi);
+        Double area = (22 * raio*raio)/7;
         
-        System.out.print("A área total do circúlo é: " + area);
+        //Double area = (raio * raio *pi);
+        
+        System.out.println("A área total do circúlo em cm é: " + area);
+        System.out.println("A área total do circúlo em metros é: " + area/100);
     }
 }
