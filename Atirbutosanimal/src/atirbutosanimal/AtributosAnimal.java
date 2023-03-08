@@ -8,13 +8,20 @@ package atirbutosanimal;
  *
  * @author aluno
  */
+
+//Criar uma classe distinguindo 5 atributos para definir um animal. E depois criar uma outra classe para cadastrar 5 animais.
+
 public class AtributosAnimal {
     
-    String cor;
-    String corOlhos;
-    String sexo;
-    double peso;
-    int idade;
+   public String cor;
+   public String corOlhos;
+   public String sexo;
+   public double peso;
+
+    /**
+     *
+     */
+    public int idade;
 
     public static void main(String[] args) {
        
