@@ -6,12 +6,26 @@ package atirbutosanimal;
 
 /**
  *
- * @author aluno
+ * @author Nicolas
  */
 public class Separacao {
+
     public String cor;
-   public String corOlhos;
-   public String sexo;
-   public double peso;
+    public String corOlhos;
+    public String sexo;
+    public double peso;
     public int idade;
+    public int tamanho;
+
+    public void cantar() {
+        if (tamanho < 20) {
+            System.out.println("piii, piii");
+        } else if (tamanho > 30) {
+            System.out.println("pipipi pipipi");
+        } else {
+            System.out.println("piiiiiiii");
+        }
+
+    }
+
 }
