@@ -13,8 +13,20 @@ public class MenuCalculadora {
     public static void main(String[] args) {
         Calculadora calc = new Calculadora ();
         
-        int resultado1 = calc.somar (2,3);
-        double resultado2 = calc.somar (2.5, 3.5);
-        int resultado3 = calc.somar (2,3,4);
+ 
+
+        
+        int re1 = calc.soma(2, 3);
+        System.out.println("2 + 3 = " + re1);
+
+        
+        double re2 = calc.soma(2.5, 3.5);
+        System.out.println("2.5 + 3.5 = " + re2);
+
+       
+        int re3 = calc.soma(2, 3, 4);
+        System.out.println(" 2 + 3 + 4 = " + re3); 
     }
 }
+
+
